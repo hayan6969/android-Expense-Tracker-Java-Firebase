@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "770662165929",
+    "firebase_url": "https://expense-tracker-java-default-rtdb.firebaseio.com",
+    "project_id": "expense-tracker-java",
+    "storage_bucket": "expense-tracker-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770662165929:android:addff214da71c84b1d28b8",
+        "android_client_info": {
+          "package_name": "com.example.expensetrackerfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuZpf6LBfzpTfgSQIa2jtx98JJMt40x54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

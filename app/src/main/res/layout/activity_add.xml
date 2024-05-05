@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/dark1"
+    android:background="@color/dark1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/slate1"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+
+        android:text="Add Expense"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Item Name"
+        android:textColor="@color/slate1"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="hi"
+        android:textColor="@color/orange1"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_bold"
+
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/slate1"
+
+        android:text="Description"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/orange1"
+
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="16sp"
+        android:text="hi"
+        android:gravity="center"
+        android:id="@+id/addDescription"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"         android:fontFamily="@font/poppins_bold"
+
+        android:textColor="@color/slate1"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Amount"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/orange1"
+        android:fontFamily="@font/poppins_bold"
+
+
+
+        android:layout_marginRight="10dp"
+        android:text="hi"
+        android:gravity="center"
+        android:id="@+id/addAmount"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"         android:fontFamily="@font/poppins_bold"
+
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/slate1"
+
+        android:layout_marginBottom="5dp"
+        android:text="To or By"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:text="hi"
+        android:textColor="@color/orange1"
+
+        android:gravity="center"
+        android:id="@+id/addToOrBy"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"         android:textColor="@color/slate1"
+
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_bold"
+
+        android:layout_marginBottom="5dp"
+        android:text="Participant"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="hi"
+        android:textColor="@color/orange1"
+        android:fontFamily="@font/poppins_bold"
+
+
+        android:id="@+id/addParticipant"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/slate1"
+        android:fontFamily="@font/poppins_bold"
+
+
+        android:textSize="16sp"         android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Time"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:text="hi"
+        android:textColor="@color/orange1"
+        android:fontFamily="@font/poppins_bold"
+
+        android:gravity="center"
+        android:id="@+id/addTime"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+
+        android:gravity="center"
+        android:textSize="16sp"         android:textColor="@color/slate1"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins_bold"
+
+        android:text="hi"
+        android:textColor="@color/orange1"
+
+        android:gravity="center"
+        android:id="@+id/addDate"        />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="@color/slate1"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Add"
+
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="@color/slate1"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        android:text="back"
+        android:fontFamily="@font/poppins_bold"
+
+        android:textSize="16sp"  />
+
+
+</LinearLayout>

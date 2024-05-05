@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="@color/orange1"
+    android:layout_margin="10px"
+
+
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/ItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ItemName"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/slate1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:fontFamily="@font/poppins_bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:textColor="@color/slate1"            android:textStyle="bold"
+            android:layout_below="@+id/ItemName"
+
+            />
+        <TextView
+            android:id="@+id/expense"
+            android:fontFamily="@font/poppins_bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expense"
+            android:textColor="@color/slate1"            android:textStyle="bold"
+            android:layout_below="@+id/Description"
+
+            />
+
+
+        <TextView
+            android:id="@+id/Date"
+            android:fontFamily="@font/poppins_bold"
+
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="216dp"
+            android:layout_toRightOf="@+id/expense"
+            android:text="Date"
+            android:textColor="@color/slate1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Time"
+            android:fontFamily="@font/poppins_bold"
+
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Date"
+            android:layout_marginLeft="269dp"
+            android:layout_marginTop="0dp"
+            android:text="Time"
+
+            android:textColor="@color/slate1"            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ToOrby"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Date"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="ToOrby"
+
+
+            android:textColor="@color/slate1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/participant"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/Date"
+            android:layout_marginLeft="259dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="participant"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/expense">
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_marginTop="20px"
+        android:fontFamily="@font/poppins_bold"
+
+        android:backgroundTint="@color/dark1"
+        android:id="@+id/btnEdit"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="20px"
+        android:fontFamily="@font/poppins_bold"
+
+        android:backgroundTint="@color/dark1"
+        android:textColor="@color/white"
+
+
+        android:text="Delete" />
+
+
+</LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
